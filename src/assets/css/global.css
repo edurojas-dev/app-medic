@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+:root {
+  /* Primárias */
+  --primary-0: #483698;
+  /* secundárias */
+  --secondary-0: #ffffff;
+  --secondary-1: #f9f9f9;
+  --secondary-3: #b9b9b9;
+  --secondary-4: #8a8a8a;
+  --secondary-7: #282828;
+
+  /* atenção */
+  --CTA-0: #fbde40;
+  --CTA-1: #ffe766;
+
+  /* suporte */
+  --danger: #dc3545;
+}
+
+.icone {
+  font-size: 40px;
+  color: var(--primary-0);
+  position: absolute;
+  top: 7%;
+  left: 22%;
+  text-decoration: none;
+}
+
+.icone:hover {
+  color: var(--primary-0);
+}
+.progress-bar {
+  background-color: var(--primary-0);
+}
+
+@media (max-width: 900px) {
+  .icone {
+    top: 7%;
+    left: 5%;
+  }
+  .jumbotron {
+    padding: 45px 25px 0 25px !important;
+  }
+}
